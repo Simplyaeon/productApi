@@ -1,0 +1,30 @@
+{
+  "name": "productapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simplyaeon/productApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Simplyaeon/productApi/issues"
+  },
+  "homepage": "https://github.com/Simplyaeon/productApi#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
